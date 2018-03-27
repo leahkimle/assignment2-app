@@ -1,0 +1,524 @@
+body {
+}
+
+#wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    background-color: white;
+    font-family: Verdana, Geneva, Helvetica sans-serif;
+    width: 960px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+#title {
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    width: 586px;
+    text-align: center;
+    left: 107px;
+    top: 0px;
+}
+
+#leahtitle {
+    width:400px;
+}
+
+#topnav {
+    padding-bottom: 10px;
+    left: 100px;
+    top: 200px;
+    text-align: center;
+}
+
+#topnavlist {
+    margin: 0px;
+    padding-top: 40px;
+    border-width: 0px;
+    border-collapse: collapse;
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+
+.navitem {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+}
+
+.navitem a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+.navitem a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.navitem a:hover {
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+.navitem a:active {
+    color:gray;
+    text-decoration: none;
+}
+
+#currentpage {
+	pointer-events: none;
+	cursor: default;
+	text-decoration: underline;
+}
+
+
+#middlediv {
+    clear: both;
+    height: 360px;
+    padding:20px;
+}
+
+img {
+    width:100%;
+}
+
+#maincontent {
+    top: 700px;
+    position: absolute;
+    left: 80px;
+}
+
+#maincontent2 {
+    top: 550px;
+    position: absolute;
+    left: 80px;
+}
+
+#faq {
+    width: 300px;
+}
+
+#bunsdiv {
+/*left: 65px;
+top: 235px;*/
+width: 100%;
+
+}
+
+.menu {
+    width:345px;
+    text-align: center;
+}
+
+.bun {
+    width: 250px;
+}
+
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: gray;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    color: palevioletred;
+}
+
+h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: normal;
+    color: gray;
+    text-align: center;
+}
+
+#footertable {
+	width: 100%;
+	top: 850px;
+	position: absolute;
+}
+
+.footercells{
+    width: 33%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: small;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+#titletext {
+    padding-top: 20px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; 
+}
+
+.row {
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.one-third {
+  width: 33.3333333333%;
+}
+
+.two-thirds {
+  width: 66.6666666667%;
+}
+
+.one-half {
+   width: 50%;
+   margin-top:50px;
+}
+
+.border_right {
+  border-right-style: solid;
+  border-color: palevioletred;
+  border-width: 2px;
+}
+
+#login {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  font-size: small;
+  color:gray;
+}
+
+#cart {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  font-size: small;
+}
+
+.detail-title {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: gray;
+}
+.detail-text {
+    margin-top:15px;
+    margin-bottom:15px;
+    font-size:15px;
+    color: gray;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+}
+
+.order-form {
+   margin-top: 30px;
+}
+
+.bun-options {
+	margin-top: 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.page-title {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   text-align: center;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 15px;
+   font-style: normal;
+   font-weight: 700;
+   color: white;
+   border: 2px solid palevioletred;
+   padding:5px;
+}
+
+.menu-item {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-right-style: solid;
+    border-color: palevioletred;
+    border-width: 2px;
+}
+
+.page-menu {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  color: gray;
+}
+
+a.bun-link {
+    text-decoration: none;
+}
+
+a.nutrition-link {
+    color: gray;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a.menu-link {
+    color: gray;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+.bun {
+	width:200px;
+	height:200px;
+	border: 2px solid palevioletred;
+}
+.menu-images {	
+	margin-top:50px;
+}
+
+label {
+	color: gray;
+	font-size: 15px;
+}
+
+.button-style {
+    background-color: palevioletred; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 70px;
+}
+
+hr {
+    border:1px solid palevioletred; 
+} 
+
+
+* {
+  box-sizing: border-box;
+}
+ 
+
+.shopping-cart {
+  width: 750px;
+  height: 423px;
+  margin: 80px auto;
+  background: #FFFFFF;
+  box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.10);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.title {
+  height: 60px;
+  border-bottom: 1px solid palevioletred;
+  padding: 20px 30px;
+  color: #5E6977;
+  font-size: 18px;
+  font-weight: 400;
+}
+ 
+.item {
+  padding: 20px 30px;
+  height: 120px;
+  display: flex;
+}
+ 
+.item:nth-child(3) {
+  border-top:  1px solid palevioletred;
+  border-bottom:  1px solid palevioletred;
+}
+
+.buttons {
+  position: relative;
+  padding-top: 30px;
+  margin-right: 60px;
+}
+.delete-btn,
+.like-btn {
+  display: inline-block;
+  Cursor: pointer;
+}
+.delete-btn {
+  width: 18px;
+  height: 17px;
+  background: url(&quot;delete-icn.svg&quot;) no-repeat center;
+}
+
+.is-active {
+  animation-name: animate;
+  animation-duration: .8s;
+  animation-iteration-count: 1;
+  animation-timing-function: steps(28);
+  animation-fill-mode: forwards;
+}
+ 
+@keyframes animate {
+  0%   { background-position: left;  }
+  50%  { background-position: right; }
+  100% { background-position: right; }
+}
+
+.image {
+  margin-right: 50px;
+}
+ 
+.description {
+  padding-top: 10px;
+  margin-right: 60px;
+  width: 115px;
+}
+ 
+.description span {
+  display: block;
+  font-size: 14px;
+  color: #43484D;
+  font-weight: 400;
+}
+ 
+.description span:first-child {
+  margin-bottom: 5px;
+}
+.description span:last-child {
+  font-weight: 300;
+  margin-top: 8px;
+  color: #86939E;
+}
+
+.quantity {
+  padding-top: 20px;
+  margin-right: 60px;
+}
+
+.quantity input {
+  -webkit-appearance: none;
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+ 
+button[class*=btn] {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn img {
+  margin-bottom: 3px;
+}
+.plus-btn img {
+  margin-top: 2px;
+}
+ 
+button:focus,
+input:focus {
+  outline:0;
+}
+
+.total-price {
+  width: 83px;
+  padding-top: 27px;
+  text-align: center;
+  font-size: 16px;
+  color: #43484D;
+  font-weight: 300;
+}
+
+@media (max-width: 800px) {
+  .shopping-cart {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+  .item {
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image img {
+    width: 50%;
+  }
+  .image,
+  .quantity,
+  .description {
+    width: 100%;
+    text-align: center;
+    margin: 6px 0;
+  }
+  .buttons {
+    margin-right: 20px;
+  }
+}
